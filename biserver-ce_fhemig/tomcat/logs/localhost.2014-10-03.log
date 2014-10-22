@@ -1,0 +1,155 @@
+Out 03, 2014 6:56:07 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 8:13:50 AM org.apache.catalina.core.ApplicationContext log
+Informações: Closing Spring root WebApplicationContext
+Out 03, 2014 8:44:28 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 8:51:55 AM org.apache.catalina.core.ApplicationContext log
+Informações: Closing Spring root WebApplicationContext
+Out 03, 2014 8:53:28 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 9:15:50 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 9:22:11 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 9:31:40 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 10:51:09 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 11:20:01 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 11:30:57 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 11:32:54 AM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 12:05:35 PM org.apache.catalina.core.StandardWrapperValve invoke
+Grave: Servlet.service() for servlet jaxrsEndpoint-spring threw exception
+java.lang.RuntimeException: java.lang.IllegalStateException: getAttribute: Session already invalidated
+	at org.apache.jackrabbit.core.security.authorization.acl.CachingPentahoEntryCollector.throttledUpdateCache(CachingPentahoEntryCollector.java:247)
+	at org.apache.jackrabbit.core.security.authorization.acl.CachingPentahoEntryCollector.updateCache(CachingPentahoEntryCollector.java:212)
+	at org.apache.jackrabbit.core.security.authorization.acl.CachingPentahoEntryCollector.getEntries(CachingPentahoEntryCollector.java:164)
+	at org.apache.jackrabbit.core.security.authorization.acl.PentahoEntryCollector.collectEntries(PentahoEntryCollector.java:446)
+	at org.apache.jackrabbit.core.security.authorization.acl.PentahoCompiledPermissionsImpl.canRead(PentahoCompiledPermissionsImpl.java:279)
+	at org.apache.jackrabbit.core.security.DefaultAccessManager.canRead(DefaultAccessManager.java:265)
+	at org.apache.jackrabbit.core.ItemManager.canRead(ItemManager.java:438)
+	at org.apache.jackrabbit.core.ItemManager.createItemData(ItemManager.java:843)
+	at org.apache.jackrabbit.core.ItemManager.getItemData(ItemManager.java:391)
+	at org.apache.jackrabbit.core.ItemManager.getItem(ItemManager.java:328)
+	at org.apache.jackrabbit.core.ItemManager.getItem(ItemManager.java:555)
+	at org.apache.jackrabbit.core.session.SessionItemOperation$4.perform(SessionItemOperation.java:97)
+	at org.apache.jackrabbit.core.session.SessionItemOperation$4.perform(SessionItemOperation.java:93)
+	at org.apache.jackrabbit.core.session.SessionItemOperation.perform(SessionItemOperation.java:187)
+	at org.apache.jackrabbit.core.session.SessionState.perform(SessionState.java:216)
+	at org.apache.jackrabbit.core.SessionImpl.perform(SessionImpl.java:361)
+	at org.apache.jackrabbit.core.SessionImpl.getItem(SessionImpl.java:786)
+	at org.pentaho.platform.repository2.unified.jcr.RepositoryFileProxy$20.doInJcr(RepositoryFileProxy.java:589)
+	at org.pentaho.platform.repository2.unified.jcr.sejcr.PentahoJcrTemplate.execute(PentahoJcrTemplate.java:64)
+	at org.springframework.extensions.jcr.JcrTemplate.execute(JcrTemplate.java:115)
+	at org.pentaho.platform.repository2.unified.jcr.RepositoryFileProxy.executeOperation(RepositoryFileProxy.java:586)
+	at org.pentaho.platform.repository2.unified.jcr.RepositoryFileProxy.getCreatedDate(RepositoryFileProxy.java:143)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileAdapter.toFileDto(RepositoryFileAdapter.java:89)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileTreeAdapter.marshal(RepositoryFileTreeAdapter.java:59)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileTreeAdapter.marshal(RepositoryFileTreeAdapter.java:65)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileTreeAdapter.marshal(RepositoryFileTreeAdapter.java:65)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileTreeAdapter.marshal(RepositoryFileTreeAdapter.java:65)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileTreeAdapter.marshal(RepositoryFileTreeAdapter.java:65)
+	at org.pentaho.platform.repository2.unified.webservices.RepositoryFileTreeAdapter.marshal(RepositoryFileTreeAdapter.java:65)
+	at org.pentaho.platform.repository2.unified.webservices.DefaultUnifiedRepositoryWebService.getTreeFromRequest(DefaultUnifiedRepositoryWebService.java:182)
+	at org.pentaho.platform.web.http.api.resources.FileResource.doGetTree(FileResource.java:1388)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.sun.jersey.spi.container.JavaMethodInvokerFactory$1.invoke(JavaMethodInvokerFactory.java:60)
+	at com.sun.jersey.server.impl.model.method.dispatch.AbstractResourceMethodDispatchProvider$TypeOutInvoker._dispatch(AbstractResourceMethodDispatchProvider.java:185)
+	at com.sun.jersey.server.impl.model.method.dispatch.ResourceJavaMethodDispatcher.dispatch(ResourceJavaMethodDispatcher.java:75)
+	at com.sun.jersey.server.impl.uri.rules.HttpMethodRule.accept(HttpMethodRule.java:302)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.ResourceClassRule.accept(ResourceClassRule.java:108)
+	at com.sun.jersey.server.impl.uri.rules.RightHandPathRule.accept(RightHandPathRule.java:147)
+	at com.sun.jersey.server.impl.uri.rules.RootResourceClassesRule.accept(RootResourceClassesRule.java:84)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1511)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl._handleRequest(WebApplicationImpl.java:1442)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1391)
+	at com.sun.jersey.server.impl.application.WebApplicationImpl.handleRequest(WebApplicationImpl.java:1381)
+	at com.sun.jersey.spi.container.servlet.WebComponent.service(WebComponent.java:416)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:538)
+	at com.sun.jersey.spi.container.servlet.ServletContainer.service(ServletContainer.java:716)
+	at org.pentaho.platform.web.servlet.JAXRSServlet.service(JAXRSServlet.java:108)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:723)
+	at org.pentaho.platform.web.servlet.JAXRSServlet.service(JAXRSServlet.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:290)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.PentahoWebContextFilter.doFilter(PentahoWebContextFilter.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.PentahoRequestContextFilter.doFilter(PentahoRequestContextFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:378)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:109)
+	at org.springframework.security.intercept.web.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:83)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.ExceptionTranslationFilter.doFilterHttp(ExceptionTranslationFilter.java:101)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.providers.anonymous.AnonymousProcessingFilter.doFilterHttp(AnonymousProcessingFilter.java:105)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.ui.basicauth.BasicProcessingFilter.doFilterHttp(BasicProcessingFilter.java:174)
+	at org.pentaho.platform.web.http.security.PentahoBasicProcessingFilter.doFilterHttp(PentahoBasicProcessingFilter.java:115)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.context.HttpSessionContextIntegrationFilter.doFilterHttp(HttpSessionContextIntegrationFilter.java:235)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.pentaho.platform.web.http.filters.HttpSessionPentahoSessionIntegrationFilter.doFilter(HttpSessionPentahoSessionIntegrationFilter.java:263)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.wrapper.SecurityContextHolderAwareRequestFilter.doFilterHttp(SecurityContextHolderAwareRequestFilter.java:91)
+	at org.springframework.security.ui.SpringSecurityFilter.doFilter(SpringSecurityFilter.java:53)
+	at org.springframework.security.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:390)
+	at org.springframework.security.util.FilterChainProxy.doFilter(FilterChainProxy.java:175)
+	at org.springframework.security.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.SystemStatusFilter.doFilter(SystemStatusFilter.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:114)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.WebappRootForwardingFilter.doFilter(WebappRootForwardingFilter.java:70)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.pentaho.platform.web.http.filters.PentahoPathDecodingFilter.doFilter(PentahoPathDecodingFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:470)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:861)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:606)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalStateException: getAttribute: Session already invalidated
+	at org.apache.catalina.session.StandardSession.getAttribute(StandardSession.java:1088)
+	at org.apache.catalina.session.StandardSessionFacade.getAttribute(StandardSessionFacade.java:110)
+	at org.pentaho.platform.web.http.session.PentahoHttpSession.getAttribute(PentahoHttpSession.java:67)
+	at org.pentaho.platform.repository2.unified.jcr.JcrTenantUtils.getCurrentTenant(JcrTenantUtils.java:152)
+	at org.pentaho.platform.repository2.unified.jcr.JcrTenantUtils.getTenant(JcrTenantUtils.java:134)
+	at org.apache.jackrabbit.core.security.authorization.acl.PentahoEntryCollector.getAcesIncludingMagicAces(PentahoEntryCollector.java:301)
+	at org.apache.jackrabbit.core.security.authorization.acl.PentahoEntryCollector.getEntries(PentahoEntryCollector.java:234)
+	at org.apache.jackrabbit.core.security.authorization.acl.CachingPentahoEntryCollector.internalUpdateCache(CachingPentahoEntryCollector.java:193)
+	at org.apache.jackrabbit.core.security.authorization.acl.CachingPentahoEntryCollector.throttledUpdateCache(CachingPentahoEntryCollector.java:237)
+	... 109 more
+
+Out 03, 2014 12:08:51 PM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 12:23:39 PM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext
+Out 03, 2014 2:34:03 PM org.apache.catalina.core.ApplicationContext log
+Informações: Initializing Spring root WebApplicationContext

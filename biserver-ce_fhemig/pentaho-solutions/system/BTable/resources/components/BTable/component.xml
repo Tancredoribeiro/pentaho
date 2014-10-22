@@ -1,0 +1,370 @@
+<DesignerComponent>
+	<Header>
+		<Name>BTable</Name>
+		<IName>BTableComponent</IName>
+		<Description>BTable (by Biz Tech)</Description>
+		<Category>COMMUNITYCOMPONENTS</Category>
+		<CatDescription>Community Contributions</CatDescription>
+		<Type>PalleteEntry</Type>
+		<Version>1.0</Version>
+	</Header>
+	<Contents>
+		<Model>
+			<Property>htmlObject</Property>
+			<Property>listeners</Property>
+
+			<Property>file</Property>
+			<Property>tableSettingsFromFile</Property>
+			<Property>catalog</Property>
+			<Property>jndi</Property>
+			<Property>cube</Property>
+			<Property>dimensions</Property>
+			<Property>measures</Property>
+			<Property>pivotDimensions</Property>
+			<Property>filters</Property>
+			<Property>orderBy</Property>
+			<Property>measuresOnColumns</Property>
+			<Property>nonEmptyRows</Property>
+			<Property>nonEmptyColumns</Property>
+			<Property>grandTotal</Property>
+			<Property>subTotals</Property>
+			<Property>pivotGrandTotal</Property>
+			<Property>pivotSubTotals</Property>
+			<!-- Property>totalsPosition</Property -->
+			<Property>hideSpans</Property>
+			<Property>showFilters</Property>
+			<Property>fixedHeader</Property>
+
+			<Definition name="chartDefinition">
+				<Property name="clickAction">cccClickAction</Property>
+				<Property>drawCallback</Property>
+			</Definition>
+			<Property>executeAtStart</Property>
+			<Property>preChange</Property>
+			<Property>postChange</Property>
+			<Property>postFetch</Property>
+			<Property>preExecution</Property>
+			<Property>postExecution</Property>
+			<Property>refreshPeriod</Property>
+			<Property>tooltip</Property>
+			<Property>extraOptions</Property>
+			<Property>expandParameters</Property>
+			<Property>expandOnClick</Property>
+			<Property>expandContainerObject</Property>			
+		</Model>
+        <Implementation>
+            <Code src="BTableComponent.js" />
+            <Styles>
+                <Style version="1.0" src="lib/btable.css">btable.css</Style>
+                <Style version="1.0" src="lib/jQuery-contextMenu/jquery.contextMenu.css">jquery.contextMenu</Style>
+                <Style version="1.5" src="lib/hynds/jquery.multiselect.filter.css">jquery.multiselect.filter.css</Style>
+				<Style version="1.01" src="lib/jqueryFileTree/jqueryFileTree.css">jqueryFileTree.css</Style>
+				<Style version="2.7" src="lib/jQuery-Impromptu/jquery.impromptu.css">jquery.impromptu.css</Style>
+				<Style version="1.0" src="lib/popup.css">popup.css</Style>
+				<Style version="1.0" src="lib/ext.css">ext.css</Style>
+            </Styles>
+            <Dependencies>
+				<Dependency src="lib/bt.ext.js" version="1.0">bt.ext.js</Dependency>
+                <Dependency src="lib/bt.table.js" version="1.0">bt.table.js</Dependency>
+                <Dependency src="lib/bt.query.js" version="1.0">bt.query.js</Dependency>
+                <Dependency src="lib/bt.olap.js" version="1.0">bt.olap.js</Dependency>
+                <Dependency src="lib/bt.utils.js" version="1.0">bt.utils.js</Dependency>
+                <Dependency src="lib/bt.helpers.js" version="1.0">bt.helpers.js</Dependency>
+                <Dependency src="lib/jQuery-contextMenu/jquery.contextMenu.js" version="1.0">jquery.contextMenu.js</Dependency>
+                <Dependency src="lib/jQuery-contextMenu/jquery.ui.position.js" version="1.10">jquery.ui.position</Dependency>                
+                <Dependency src="lib/hynds/jquery.multiselect.filter.js" version="1.5">jquery.multiselect.filter.js</Dependency>
+				<Dependency src="lib/form/jquery.form.js" version="3.40">jquery.form.js</Dependency>
+				<Dependency src="lib/jqueryFileTree/jqueryFileTree.js" version="1.01">jqueryFileTree.js</Dependency>
+				<Dependency src="lib/jQuery-Impromptu/jquery.impromptu.js" version="2.7">jquery.impromptu.js</Dependency>
+			</Dependencies>
+            <CustomProperties>
+                <DesignerProperty>
+                    <Header>
+                        <Name>file</Name>
+                        <Parent>BaseProperty</Parent>
+                        <DefaultValue></DefaultValue>
+                        <Description>File Path</Description>
+                        <Tooltip></Tooltip>
+                        <InputType>String</InputType>
+                        <OutputType>String</OutputType>
+                        <Order>10</Order>
+                        <Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>tableSettingsFromFile</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Table Settings From File</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>				
+				<DesignerProperty>
+                    <Header>
+                        <Name>catalog</Name>
+                        <Parent>BaseProperty</Parent>
+                        <DefaultValue></DefaultValue>
+                        <Description>Catalog</Description>
+                        <Tooltip>Catalog</Tooltip>
+                        <InputType>MondrianCatalog</InputType>
+                        <OutputType>String</OutputType>
+                        <Order>10</Order>
+                        <Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+                        <Name>jndi</Name>
+                        <Parent>BaseProperty</Parent>
+                        <DefaultValue></DefaultValue>
+                        <Description>Jndi</Description>
+                        <Tooltip>Jndi</Tooltip>
+                        <InputType>Jndi</InputType>
+                        <OutputType>String</OutputType>
+                        <Order>10</Order>
+                        <Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+                        <Name>cube</Name>
+                        <Parent>BaseProperty</Parent>
+                        <DefaultValue></DefaultValue>
+                        <Description>Cube</Description>
+                        <Tooltip>Cube</Tooltip>
+                        <InputType>String</InputType>
+                        <OutputType>String</OutputType>
+                        <Order>10</Order>
+                        <Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>dimensions</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"[]"</DefaultValue>
+						<Description>Dimensions</Description>
+						<Tooltip></Tooltip>
+						<InputType>ValuesArray</InputType>
+						<OutputType>Array</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>measures</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"[]"</DefaultValue>
+						<Description>Measures</Description>
+						<Tooltip></Tooltip>
+						<InputType>ValuesArray</InputType>
+						<OutputType>Array</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>pivotDimensions</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"[]"</DefaultValue>
+						<Description>Pivot Dimensions</Description>
+						<Tooltip></Tooltip>
+						<InputType>ValuesArray</InputType>
+						<OutputType>Array</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>filters</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"[]"</DefaultValue>
+						<Description>Filters / File Replacements</Description>
+						<Tooltip></Tooltip>
+						<InputType>ValuesArray</InputType>
+						<OutputType>Array</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>orderBy</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"[]"</DefaultValue>
+						<Description>Order By</Description>
+						<Tooltip></Tooltip>
+						<InputType>ValuesArray</InputType>
+						<OutputType>Array</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>measuresOnColumns</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Measures on Columns</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>nonEmptyRows</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Non Empty Rows</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>nonEmptyColumns</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Non Empty Columns</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>grandTotal</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"false"</DefaultValue>
+						<Description>Grand Total on Dimensions</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>subTotals</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"false"</DefaultValue>
+						<Description>Subtotals on Dimensions</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>pivotGrandTotal</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"false"</DefaultValue>
+						<Description>Grand Total on Pivot</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>pivotSubTotals</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"false"</DefaultValue>
+						<Description>Subtotals on Pivot</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+                        <Name>totalsPosition</Name>
+                        <Parent>BaseProperty</Parent>
+                        <DefaultValue>Bottom</DefaultValue>
+                        <Description>Totals Position</Description>
+                        <Tooltip></Tooltip>
+                        <InputType>String</InputType>
+                        <OutputType>String</OutputType>
+                        <Order>10</Order>
+                        <Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>hideSpans</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"false"</DefaultValue>
+						<Description>Hide Spans</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>				
+                <DesignerProperty>
+                    <Header>
+						<Name>showFilters</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Show Applied Filters and Sorts</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>fixedHeader</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Fixed Header</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>
+                <DesignerProperty>
+                    <Header>
+						<Name>drillInPUC</Name>
+						<Parent>BaseProperty</Parent>
+						<DefaultValue>"true"</DefaultValue>
+						<Description>Drill in PUC</Description>
+						<Tooltip></Tooltip>
+						<InputType>Boolean</InputType>
+						<OutputType>Boolean</OutputType>
+						<Order>10</Order>
+						<Version>1.0</Version>
+                    </Header>
+                </DesignerProperty>				
+            </CustomProperties>
+        </Implementation>		
+	</Contents>
+</DesignerComponent>

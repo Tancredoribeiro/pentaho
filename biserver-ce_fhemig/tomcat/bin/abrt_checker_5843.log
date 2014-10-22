@@ -1,0 +1,7 @@
+Uncaught java.lang.NullPointerException exception in thread "Timer-2" in a method java.util.TimerThread.run() with signature ()V
+Exception in thread "Timer-2" java.lang.NullPointerException
+	at org.apache.commons.logging.impl.SLF4JLocationAwareLog.debug(SLF4JLocationAwareLog.java:133) [unknown]
+	at org.quartz.utils.UpdateChecker.checkForUpdate(UpdateChecker.java:51) [unknown]
+	at org.quartz.utils.UpdateChecker.run(UpdateChecker.java:39) [unknown]
+	at java.util.TimerThread.mainLoop(Timer.java:555) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc20.x86_64/jre/lib/rt.jar!/java/util/TimerThread.class]
+	at java.util.TimerThread.run(Timer.java:505) [jar:file:/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.60-2.4.3.0.fc20.x86_64/jre/lib/rt.jar!/java/util/TimerThread.class]

@@ -1,0 +1,1345 @@
+2014-10-14 15:12:06,559 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.objectweb.asm.all:4.0.0
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,588 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: com.springsource.org.apache.commons.logging:1.1.1
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,604 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.apache.commons.collections:3.2.1
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,609 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.eclipse.gemini.blueprint.core:1.0.2.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,618 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.eclipse.gemini.blueprint.extender:1.0.2.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,620 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.eclipse.gemini.blueprint.io:1.0.2.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,630 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: log4j:1.2.17
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,632 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.apache.aries.util:1.1.0
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,641 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.apache.felix.configadmin:1.8.0
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,643 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.apache.felix.fileinstall:3.2.6
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,651 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.apache.servicemix.bundles.aopalliance:1.0.0.6
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,670 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: osgi.cmpn:4.2.0.200908310645
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,680 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.springframework.aop:3.2.4.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,685 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.springframework.beans:3.2.4.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,710 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.springframework.context:3.2.4.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,716 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.springframework.core:3.2.4.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,723 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.springframework.expression:3.2.4.RELEASE
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,725 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: org.slf4j.osgi-over-slf4j:1.7.5
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:06,733 ERROR [org.pentaho.platform.osgi.OSGIBoot] Error installing Bundle
+org.osgi.framework.BundleException: Bundle symbolic name and version are not unique: slf4j.api:1.7.5
+	at org.apache.felix.framework.BundleImpl.createRevision(BundleImpl.java:1233)
+	at org.apache.felix.framework.BundleImpl.<init>(BundleImpl.java:96)
+	at org.apache.felix.framework.Felix.installBundle(Felix.java:2899)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:165)
+	at org.apache.felix.framework.BundleContextImpl.installBundle(BundleContextImpl.java:138)
+	at org.pentaho.platform.osgi.OSGIBoot.startup(OSGIBoot.java:136)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:398)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$2.call(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:389)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.access$000(PentahoSystem.java:77)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:326)
+	at org.pentaho.platform.engine.core.system.PentahoSystem$1.call(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.runAsSystem(PentahoSystem.java:368)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.notifySystemListenersOfStartup(PentahoSystem.java:323)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:294)
+	at org.pentaho.platform.engine.core.system.PentahoSystem.init(PentahoSystem.java:207)
+	at org.pentaho.platform.web.http.context.SolutionContextListener.contextInitialized(SolutionContextListener.java:135)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4210)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4709)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:799)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:779)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:583)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:675)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:601)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:502)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1317)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:324)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:142)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1065)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:822)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1057)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:463)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:525)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:754)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:595)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:289)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+2014-10-14 15:12:08,897 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Início da execução do job
+2014-10-14 15:12:08,902 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Starting entry [Set variables]
+2014-10-14 15:12:08,902 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Starting entry [Checks if files exist]
+2014-10-14 15:12:08,905 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Starting entry [File Compare libpensol.jar]
+2014-10-14 15:12:08,982 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Starting entry [Abort job]
+2014-10-14 15:12:08,983 ERROR [org.pentaho.di] 2014/10/14 15:12:08 - Abort job - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Abortando job
+2014-10-14 15:12:08,983 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Finished job entry [Abort job] (result=[false])
+2014-10-14 15:12:08,983 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Finished job entry [File Compare libpensol.jar] (result=[false])
+2014-10-14 15:12:08,983 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Finished job entry [Checks if files exist] (result=[false])
+2014-10-14 15:12:08,983 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Finished job entry [Set variables] (result=[false])
+2014-10-14 15:12:08,983 INFO  [org.pentaho.di] 2014/10/14 15:12:08 - startUp - Job execution finished
+2014-10-14 15:12:09,198 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Início da execução do job
+2014-10-14 15:12:09,199 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Starting entry [Set variables]
+2014-10-14 15:12:09,200 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Starting entry [Checks if files exist]
+2014-10-14 15:12:09,201 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Starting entry [File Compare libpensol.jar]
+2014-10-14 15:12:09,251 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Starting entry [Abort job]
+2014-10-14 15:12:09,252 ERROR [org.pentaho.di] 2014/10/14 15:12:09 - Abort job - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Abortando job
+2014-10-14 15:12:09,252 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Finished job entry [Abort job] (result=[false])
+2014-10-14 15:12:09,252 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Finished job entry [File Compare libpensol.jar] (result=[false])
+2014-10-14 15:12:09,252 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Finished job entry [Checks if files exist] (result=[false])
+2014-10-14 15:12:09,252 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Finished job entry [Set variables] (result=[false])
+2014-10-14 15:12:09,252 INFO  [org.pentaho.di] 2014/10/14 15:12:09 - startUp - Job execution finished
+2014-10-14 15:13:21,589 ERROR [org.pentaho.platform.web.servlet.GenericServlet] GenericServlet.ERROR_0004 - Resource /saiku-ui/saikuplugin.properties_supported_languages.properties not found in plugin saiku
+2014-10-14 15:13:21,946 ERROR [org.pentaho.platform.web.servlet.GenericServlet] GenericServlet.ERROR_0004 - Resource /saiku-ui/saikuplugin.properties.properties not found in plugin saiku
+2014-10-14 15:13:22,039 ERROR [org.pentaho.platform.web.servlet.GenericServlet] GenericServlet.ERROR_0004 - Resource /saiku-ui/saikuplugin.properties_en.properties not found in plugin saiku
+2014-10-14 15:13:22,157 ERROR [org.pentaho.platform.web.servlet.GenericServlet] GenericServlet.ERROR_0004 - Resource /saiku-ui/saikuplugin.properties_en_US.properties not found in plugin saiku
+2014-10-14 15:17:25,758 ERROR [mondrian.util.ServiceDiscovery] Class class mondrian.spi.impl.NuoDbDialect cannot be assigned to interface interface mondrian.spi.Dialect
+2014-10-14 17:24:28,256 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - checkLocations - Expedindo início para transformação [checkLocations]
+2014-10-14 17:24:28,427 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - _getLocations - Expedindo início para transformação [_getLocations]
+2014-10-14 17:24:28,821 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - fake http status code.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:28,821 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - http status codes.0 - Finished processing (I=0, O=0, R=0, W=43, U=0, E=0)
+2014-10-14 17:24:28,830 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - Get data from XML.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:28,833 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - Environment Substitute.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:28,836 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - clean path.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:28,884 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - NormalizePath.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:28,890 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - Write to log 2.0 - 
+2014/10/14 17:24:28 - Write to log 2.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:28 - Write to log 2.0 - _getLocations:
+2014/10/14 17:24:28 - Write to log 2.0 - 
+2014/10/14 17:24:28 - Write to log 2.0 - elementName = JCR
+2014/10/14 17:24:28 - Write to log 2.0 - elementPath = jcr-solution:http://127.0.0.1:8080/pentaho!/
+2014/10/14 17:24:28 - Write to log 2.0 - 
+2014/10/14 17:24:28 - Write to log 2.0 - ====================
+2014-10-14 17:24:28,891 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - append /.0 - Finished processing (I=0, O=0, R=2, W=4, U=0, E=0)
+2014-10-14 17:24:28,891 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - Write to log 2.0 - 
+2014/10/14 17:24:28 - Write to log 2.0 - ------------> Linenr 2------------------------------
+2014/10/14 17:24:28 - Write to log 2.0 - _getLocations:
+2014/10/14 17:24:28 - Write to log 2.0 - 
+2014/10/14 17:24:28 - Write to log 2.0 - elementName = File System
+2014/10/14 17:24:28 - Write to log 2.0 - elementPath = file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/repositorySynchronizer/
+2014/10/14 17:24:28 - Write to log 2.0 - 
+2014/10/14 17:24:28 - Write to log 2.0 - ====================
+2014-10-14 17:24:28,893 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - OUTPUT.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:28,894 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - Write to log 2.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:28,894 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - getLocations.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:28,965 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - JCR?.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:28,969 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - element exists?.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:28,974 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - is folder?.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:28,980 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - lk status code.0 - Finished processing (I=0, O=0, R=43, W=0, U=0, E=0)
+2014-10-14 17:24:28,980 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - FS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:28,982 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - Select values FS.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:28,984 INFO  [org.pentaho.di] 2014/10/14 17:24:28 - FS validation.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,037 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - jcr-solution:http?.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,038 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,042 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - local operation.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,337 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Join Rows (cartesian product).0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2014-10-14 17:24:29,338 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - reason 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,339 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Select values JCR 0.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,341 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - JCR output.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,343 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - OUTPUT.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:29,433 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - previewDifferences - Expedindo início para transformação [previewDifferences]
+2014-10-14 17:24:29,454 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:29,462 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _previewDifferences.kjb - Starting entry [recalculate?]
+2014-10-14 17:24:29,463 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - recalculate? - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_decide_new_comparison.ktr]
+2014-10-14 17:24:29,463 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:29 - Write to log.0 - ############# Pentaho Repository Synchronizer : previewDifferences
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - Input parameters:
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - cpk.plugin.dir = /opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer
+2014/10/14 17:24:29 - Write to log.0 - cpk.solution.system.dir	= /opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - selectedAction = E
+2014/10/14 17:24:29 - Write to log.0 - delete         = Y
+2014/10/14 17:24:29 - Write to log.0 - overwrite      = N
+2014/10/14 17:24:29 - Write to log.0 - originRepoLocation      = JCR	
+2014/10/14 17:24:29 - Write to log.0 - destinationRepoLocation = File System
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - bypassCache  = N
+2014/10/14 17:24:29 - Write to log.0 - enforceCache = N
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - line = 
+2014/10/14 17:24:29 - Write to log.0 - 
+2014/10/14 17:24:29 - Write to log.0 - ====================
+2014-10-14 17:24:29,466 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,501 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _decide_new_comparison - Expedindo início para transformação [_decide_new_comparison]
+2014-10-14 17:24:29,520 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Detect empty stream.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:29,525 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - If field value is null.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,528 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - now.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,530 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - time to number.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,533 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - elapsed time.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,534 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Get origin/destination.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,536 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Write to log 2.0 - 
+2014/10/14 17:24:29 - Write to log 2.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:29 - Write to log 2.0 - Recalculate?
+2014/10/14 17:24:29 - Write to log 2.0 - 
+2014/10/14 17:24:29 - Write to log 2.0 - recalculate = Y
+2014/10/14 17:24:29 - Write to log 2.0 - exists = N
+2014/10/14 17:24:29 - Write to log 2.0 - lastmodifiedtime =  10800000
+2014/10/14 17:24:29 - Write to log 2.0 - size = 0
+2014/10/14 17:24:29 - Write to log 2.0 - uri = file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv
+2014/10/14 17:24:29 - Write to log 2.0 - now = 1413318269514
+2014/10/14 17:24:29 - Write to log 2.0 - time_elapsed =  1413307469514
+2014/10/14 17:24:29 - Write to log 2.0 - cache_duration_s =  00000000120,00
+2014/10/14 17:24:29 - Write to log 2.0 - bypassCache = false
+2014/10/14 17:24:29 - Write to log 2.0 - 
+2014/10/14 17:24:29 - Write to log 2.0 - ====================
+2014-10-14 17:24:29,537 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - recalculate ?.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2014-10-14 17:24:29,539 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Switch / Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,539 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Write to log 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,540 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Recalculate.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,542 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _previewDifferences.kjb - Starting entry [_compare_locations]
+2014-10-14 17:24:29,542 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _compare_locations - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_compare_locations.ktr]
+2014-10-14 17:24:29,586 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _compare_locations - Expedindo início para transformação [_compare_locations]
+2014-10-14 17:24:29,825 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _list_files_multi - Expedindo início para transformação [_list_files_multi]
+2014-10-14 17:24:29,865 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _list_files_multi - Expedindo início para transformação [_list_files_multi]
+2014-10-14 17:24:29,866 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _compare_locations_using_checksum - Expedindo início para transformação [_compare_locations_using_checksum]
+2014-10-14 17:24:29,874 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _getLocations - Expedindo início para transformação [_getLocations]
+2014-10-14 17:24:29,929 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _checksum - Expedindo início para transformação [_checksum]
+2014-10-14 17:24:29,934 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - _checksum - Expedindo início para transformação [_checksum]
+2014-10-14 17:24:29,967 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Get data from XML.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2014-10-14 17:24:29,970 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Get data from XML.0 - Finished processing (I=5, O=0, R=0, W=5, U=0, E=0)
+2014-10-14 17:24:29,972 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Calculator.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2014-10-14 17:24:29,972 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Calculator.0 - Finished processing (I=0, O=0, R=5, W=5, U=0, E=0)
+2014-10-14 17:24:29,979 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Get data from XML.0 - Finished processing (I=2, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:29,979 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Group by.0 - Finished processing (I=0, O=0, R=5, W=1, U=0, E=0)
+2014-10-14 17:24:29,980 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Group by.0 - Finished processing (I=0, O=0, R=5, W=1, U=0, E=0)
+2014-10-14 17:24:29,983 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Get origin/destination repos.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:29,984 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - Environment Substitute.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:29,987 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - clean path.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:29,987 INFO  [org.pentaho.di] 2014/10/14 17:24:29 - entry.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,018 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - NormalizePath.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:30,018 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Write to log 2.0 - 
+2014/10/14 17:24:30 - Write to log 2.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:30 - Write to log 2.0 - _getLocations:
+2014/10/14 17:24:30 - Write to log 2.0 - 
+2014/10/14 17:24:30 - Write to log 2.0 - elementName = JCR
+2014/10/14 17:24:30 - Write to log 2.0 - elementPath = jcr-solution:http://127.0.0.1:8080/pentaho!/
+2014/10/14 17:24:30 - Write to log 2.0 - 
+2014/10/14 17:24:30 - Write to log 2.0 - ====================
+2014-10-14 17:24:30,019 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Write to log 2.0 - 
+2014/10/14 17:24:30 - Write to log 2.0 - ------------> Linenr 2------------------------------
+2014/10/14 17:24:30 - Write to log 2.0 - _getLocations:
+2014/10/14 17:24:30 - Write to log 2.0 - 
+2014/10/14 17:24:30 - Write to log 2.0 - elementName = File System
+2014/10/14 17:24:30 - Write to log 2.0 - elementPath = file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/repositorySynchronizer/
+2014/10/14 17:24:30 - Write to log 2.0 - 
+2014/10/14 17:24:30 - Write to log 2.0 - ====================
+2014-10-14 17:24:30,021 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - append /.0 - Finished processing (I=0, O=0, R=2, W=4, U=0, E=0)
+2014-10-14 17:24:30,023 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Write to log 2.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:30,025 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - OUTPUT.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:30,025 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - getLocations.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:30,029 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Sort rows 2.0 - Finished processing (I=0, O=0, R=2, W=2, U=0, E=0)
+2014-10-14 17:24:30,032 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Row denormaliser.0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2014-10-14 17:24:30,287 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - join: add locations.0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2014-10-14 17:24:30,289 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - split.0 - Finished processing (I=0, O=0, R=1, W=3, U=0, E=0)
+2014-10-14 17:24:30,290 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - location = jcr.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,290 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - refresh jcr.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)
+2014-10-14 17:24:30,291 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - location = file_system.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,292 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - INPUT.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,294 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Get locations.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,396 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Block until refresh JCR.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,397 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - INPUT.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,399 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Get locations.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:30,545 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Join: location and exclusion list.0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2014-10-14 17:24:30,551 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Get File Names in destination.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)
+2014-10-14 17:24:30,559 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - files at destination.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)
+2014-10-14 17:24:30,698 INFO  [org.pentaho.di] 2014/10/14 17:24:30 - Join: location and exclusion list.0 - Finished processing (I=0, O=0, R=2, W=1, U=0, E=0)
+2014-10-14 17:24:34,024 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - Get File Names in destination.0 - Finished processing (I=0, O=0, R=1, W=660, U=0, E=0)
+2014-10-14 17:24:34,043 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - Filter rows.0 - Finished processing (I=0, O=0, R=660, W=8, U=0, E=0)
+2014-10-14 17:24:34,045 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - filename_without_location destination.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,047 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - Sort rows (left).0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,049 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - OUTPUT.0 - Finished processing (I=0, O=0, R=8, W=24, U=0, E=0)
+2014-10-14 17:24:34,050 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - files at origin.0 - Finished processing (I=0, O=0, R=1, W=24, U=0, E=0)
+2014-10-14 17:24:34,059 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - origin.0 - Finished processing (I=0, O=9, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,348 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - Merge Rows (diff).0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,350 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - lk lastmodifiedtime.0 - Finished processing (I=0, O=0, R=16, W=8, U=0, E=0)
+2014-10-14 17:24:34,352 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - lk lastmodifiedtime 2.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,353 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - int(timestamp).0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,823 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - not identical.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:34,825 INFO  [org.pentaho.di] 2014/10/14 17:24:34 - Select values.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,143 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get Variables.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,145 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - select.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,148 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Sort rows.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,150 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - If field value is null.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,153 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - prepping output.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,156 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Replace in string.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:35,158 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get cache uri.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,159 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - OUT.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,161 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - write to cache file.0 - Finished processing (I=0, O=9, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,162 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Group by.0 - Finished processing (I=0, O=0, R=8, W=1, U=0, E=0)
+2014-10-14 17:24:35,164 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Write to log 3 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,168 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _previewDifferences.kjb - Starting entry [process preview request]
+2014-10-14 17:24:35,169 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - process preview request - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_process_preview_request.ktr]
+2014-10-14 17:24:35,192 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - process preview request - Expedindo início para transformação [process preview request]
+2014-10-14 17:24:35,225 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:35,231 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _getLastSynchDate - Expedindo início para transformação [_getLastSynchDate]
+2014-10-14 17:24:35,245 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:35,257 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:35,281 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get rows from result.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,284 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - entry point.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,287 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:35,289 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - OUTPUT.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,290 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - getLastSynchDate.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:35,514 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - sub_path.0 - Optimization level set to 9.
+2014-10-14 17:24:35,589 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - join.0 - Finished processing (I=0, O=0, R=9, W=8, U=0, E=0)
+2014-10-14 17:24:35,590 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get variables.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,593 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - int(timestamp).0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,595 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Switch / Case.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,596 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Export: flagfield --> status.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,598 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - source&dest.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,600 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - input.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,601 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - folder_full_path.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,605 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Clone row.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:35,607 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - is clone?.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:35,609 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Add sequence.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:35,610 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Split path to rows.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:35,633 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - sub_path.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:35,637 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - only valid folders.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:35,639 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Select values.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:35,642 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:35,645 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - update status.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:35,647 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - remove leading /.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:35,649 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Filter rows.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:35,652 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - order.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:35,654 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Sort.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:35,657 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - discard duplicates.0 - Finished processing (I=0, O=0, R=24, W=12, U=0, E=0)
+2014-10-14 17:24:35,659 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - remove fields.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,662 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - output.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,662 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - gen_folder_lines (if needed) Export.0 - Finished processing (I=0, O=0, R=8, W=12, U=0, E=0)
+2014-10-14 17:24:35,664 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - List.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,711 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - remove nothing_to_be_updated.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,764 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - delete filter.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,766 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - select.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,768 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=12, W=24, U=0, E=0)
+2014-10-14 17:24:35,770 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Detect empty stream.0 - Finished processing (I=0, O=0, R=12, W=0, U=0, E=0)
+2014-10-14 17:24:35,773 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - OUTPUT.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,776 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _previewDifferences.kjb - Finished job entry [process preview request] (result=[true])
+2014-10-14 17:24:35,776 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _previewDifferences.kjb - Finished job entry [_compare_locations] (result=[true])
+2014-10-14 17:24:35,776 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _previewDifferences.kjb - Finished job entry [recalculate?] (result=[true])
+2014-10-14 17:24:35,777 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _previewDifferences.0 - Finished processing (I=0, O=0, R=1, W=12, U=0, E=0)
+2014-10-14 17:24:35,779 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Select values.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,782 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - OUTPUT.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:35,963 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - previewDifferences - Expedindo início para transformação [previewDifferences]
+2014-10-14 17:24:35,970 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:35,971 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:35 - Write to log.0 - ############# Pentaho Repository Synchronizer : previewDifferences
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - Input parameters:
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - cpk.plugin.dir = /opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer
+2014/10/14 17:24:35 - Write to log.0 - cpk.solution.system.dir	= /opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - selectedAction = S
+2014/10/14 17:24:35 - Write to log.0 - delete         = Y
+2014/10/14 17:24:35 - Write to log.0 - overwrite      = N
+2014/10/14 17:24:35 - Write to log.0 - originRepoLocation      = JCR	
+2014/10/14 17:24:35 - Write to log.0 - destinationRepoLocation = File System
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - bypassCache  = N
+2014/10/14 17:24:35 - Write to log.0 - enforceCache = N
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - line = 
+2014/10/14 17:24:35 - Write to log.0 - 
+2014/10/14 17:24:35 - Write to log.0 - ====================
+2014-10-14 17:24:35,973 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _previewDifferences.kjb - Starting entry [recalculate?]
+2014-10-14 17:24:35,973 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - recalculate? - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_decide_new_comparison.ktr]
+2014-10-14 17:24:35,974 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,981 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _decide_new_comparison - Expedindo início para transformação [_decide_new_comparison]
+2014-10-14 17:24:35,985 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get File Names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:35,988 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Detect empty stream.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)
+2014-10-14 17:24:35,992 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - If field value is null.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,993 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Write to log 2.0 - 
+2014/10/14 17:24:35 - Write to log 2.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:35 - Write to log 2.0 - Recalculate?
+2014/10/14 17:24:35 - Write to log 2.0 - 
+2014/10/14 17:24:35 - Write to log 2.0 - recalculate = N
+2014/10/14 17:24:35 - Write to log 2.0 - exists = Y
+2014/10/14 17:24:35 - Write to log 2.0 - lastmodifiedtime =  1413318275000
+2014/10/14 17:24:35 - Write to log 2.0 - size = 554
+2014/10/14 17:24:35 - Write to log 2.0 - uri = file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv
+2014/10/14 17:24:35 - Write to log 2.0 - now = 1413318275983
+2014/10/14 17:24:35 - Write to log 2.0 - time_elapsed =  983
+2014/10/14 17:24:35 - Write to log 2.0 - cache_duration_s =  00000000120,00
+2014/10/14 17:24:35 - Write to log 2.0 - bypassCache = false
+2014/10/14 17:24:35 - Write to log 2.0 - 
+2014/10/14 17:24:35 - Write to log 2.0 - ====================
+2014-10-14 17:24:35,993 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - now.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,994 ERROR [org.pentaho.di] 2014/10/14 17:24:35 - Don't recalculate.0 - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Row nr 1 causing abort : [Y], [ 1413318275000], [554], [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv], [1413318275983], [ 983], [JCR], [File System], [ 00000000120,00], [false], [false], [N]
+2014-10-14 17:24:35,994 ERROR [org.pentaho.di] 2014/10/14 17:24:35 - Don't recalculate.0 - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Aborting after having seen 1 rows.
+2014-10-14 17:24:35,995 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Don't recalculate.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=1)
+2014-10-14 17:24:35,995 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _decide_new_comparison - Transformação detectada 
+2014-10-14 17:24:35,995 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Get origin/destination.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,995 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - _decide_new_comparison - Transformação está matando os outros steps!
+2014-10-14 17:24:35,995 ERROR [org.pentaho.di] 2014/10/14 17:24:35 - _decide_new_comparison - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Erros detectados!
+2014-10-14 17:24:35,995 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - time to number.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,995 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Switch / Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,996 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - Write to log 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:35,996 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - recalculate ?.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2014-10-14 17:24:35,997 INFO  [org.pentaho.di] 2014/10/14 17:24:35 - elapsed time.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,237 ERROR [org.pentaho.di] 2014/10/14 17:24:36 - _decide_new_comparison - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Erros detectados!
+2014-10-14 17:24:36,237 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.kjb - Starting entry [read from cache]
+2014-10-14 17:24:36,238 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - read from cache - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_read_from_cache.ktr]
+2014-10-14 17:24:36,245 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - read from cache - Expedindo início para transformação [read from cache]
+2014-10-14 17:24:36,275 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - load from cache.0 - Header row skipped in file 'file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv'
+2014-10-14 17:24:36,276 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - load from cache.0 - Finished processing (I=9, O=0, R=0, W=16, U=0, E=0)
+2014-10-14 17:24:36,279 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - count entries 3.0 - Finished processing (I=0, O=0, R=8, W=1, U=0, E=0)
+2014-10-14 17:24:36,279 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Write to log 5.0 - 
+2014/10/14 17:24:36 - Write to log 5.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:36 - Write to log 5.0 - Loaded from cache: file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv
+2014/10/14 17:24:36 - Write to log 5.0 - 
+2014/10/14 17:24:36 - Write to log 5.0 - N = 8
+2014/10/14 17:24:36 - Write to log 5.0 - 
+2014/10/14 17:24:36 - Write to log 5.0 - ====================
+2014-10-14 17:24:36,279 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - If field value is null.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,281 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Write to log 5.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,282 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - OUT.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,283 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.kjb - Starting entry [process preview request]
+2014-10-14 17:24:36,284 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - process preview request - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_process_preview_request.ktr]
+2014-10-14 17:24:36,296 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - process preview request - Expedindo início para transformação [process preview request]
+2014-10-14 17:24:36,310 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:36,315 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _getLastSynchDate - Expedindo início para transformação [_getLastSynchDate]
+2014-10-14 17:24:36,325 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:36,336 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:36,345 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Get rows from result.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,346 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:36,347 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - entry point.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,349 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - OUTPUT.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,349 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - getLastSynchDate.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:36,502 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Synchronize.0 - Optimization level set to 9.
+2014-10-14 17:24:36,524 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - sub_path.0 - Optimization level set to 9.
+2014-10-14 17:24:36,649 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - join.0 - Finished processing (I=0, O=0, R=9, W=8, U=0, E=0)
+2014-10-14 17:24:36,650 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Get variables.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,652 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - int(timestamp).0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,654 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Switch / Case.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,656 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Synchronize.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,657 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - input.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,659 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - folder_full_path.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,661 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Clone row.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:36,663 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - is clone?.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:36,665 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Add sequence.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:36,666 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Split path to rows.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:36,668 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - sub_path.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:36,670 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - only valid folders.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:36,672 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Select values.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:36,674 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:36,675 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - update status.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:36,677 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - remove leading /.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:36,678 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Filter rows.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:36,680 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - order.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:36,683 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Sort.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:36,686 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - discard duplicates.0 - Finished processing (I=0, O=0, R=24, W=12, U=0, E=0)
+2014-10-14 17:24:36,688 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - remove fields.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,691 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - output.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,691 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - gen_folder_lines (if needed) Sync.0 - Finished processing (I=0, O=0, R=8, W=12, U=0, E=0)
+2014-10-14 17:24:36,698 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - List.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,751 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - remove nothing_to_be_updated.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,804 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - delete filter.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,806 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - select.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,810 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=12, W=24, U=0, E=0)
+2014-10-14 17:24:36,813 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Detect empty stream.0 - Finished processing (I=0, O=0, R=12, W=0, U=0, E=0)
+2014-10-14 17:24:36,814 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - OUTPUT.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,816 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.kjb - Finished job entry [process preview request] (result=[true])
+2014-10-14 17:24:36,816 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.kjb - Finished job entry [read from cache] (result=[true])
+2014-10-14 17:24:36,816 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.kjb - Finished job entry [recalculate?] (result=[true])
+2014-10-14 17:24:36,816 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.0 - Finished processing (I=0, O=0, R=1, W=12, U=0, E=0)
+2014-10-14 17:24:36,819 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Select values.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,821 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - OUTPUT.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:36,890 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - previewDifferences - Expedindo início para transformação [previewDifferences]
+2014-10-14 17:24:36,896 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Generate Rows.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:36,896 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:36 - Write to log.0 - ############# Pentaho Repository Synchronizer : previewDifferences
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - Input parameters:
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - cpk.plugin.dir = /opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer
+2014/10/14 17:24:36 - Write to log.0 - cpk.solution.system.dir	= /opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - selectedAction = I
+2014/10/14 17:24:36 - Write to log.0 - delete         = Y
+2014/10/14 17:24:36 - Write to log.0 - overwrite      = N
+2014/10/14 17:24:36 - Write to log.0 - originRepoLocation      = File System	
+2014/10/14 17:24:36 - Write to log.0 - destinationRepoLocation = JCR
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - bypassCache  = N
+2014/10/14 17:24:36 - Write to log.0 - enforceCache = N
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - line = 
+2014/10/14 17:24:36 - Write to log.0 - 
+2014/10/14 17:24:36 - Write to log.0 - ====================
+2014-10-14 17:24:36,899 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Write to log.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,899 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _previewDifferences.kjb - Starting entry [recalculate?]
+2014-10-14 17:24:36,899 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - recalculate? - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_decide_new_comparison.ktr]
+2014-10-14 17:24:36,906 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _decide_new_comparison - Expedindo início para transformação [_decide_new_comparison]
+2014-10-14 17:24:36,914 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Get File Names.0 - Finished processing (I=0, O=0, R=0, W=2, U=0, E=0)
+2014-10-14 17:24:36,917 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Detect empty stream.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=0)
+2014-10-14 17:24:36,921 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - If field value is null.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,921 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Write to log 2.0 - 
+2014/10/14 17:24:36 - Write to log 2.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:36 - Write to log 2.0 - Recalculate?
+2014/10/14 17:24:36 - Write to log 2.0 - 
+2014/10/14 17:24:36 - Write to log 2.0 - recalculate = N
+2014/10/14 17:24:36 - Write to log 2.0 - exists = Y
+2014/10/14 17:24:36 - Write to log 2.0 - lastmodifiedtime =  1413318275000
+2014/10/14 17:24:36 - Write to log 2.0 - size = 554
+2014/10/14 17:24:36 - Write to log 2.0 - uri = file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv
+2014/10/14 17:24:36 - Write to log 2.0 - now = 1413318276908
+2014/10/14 17:24:36 - Write to log 2.0 - time_elapsed =  1908
+2014/10/14 17:24:36 - Write to log 2.0 - cache_duration_s =  00000000120,00
+2014/10/14 17:24:36 - Write to log 2.0 - bypassCache = false
+2014/10/14 17:24:36 - Write to log 2.0 - 
+2014/10/14 17:24:36 - Write to log 2.0 - ====================
+2014-10-14 17:24:36,922 ERROR [org.pentaho.di] 2014/10/14 17:24:36 - Don't recalculate.0 - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Row nr 1 causing abort : [Y], [ 1413318275000], [554], [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv], [1413318276908], [ 1908], [File System], [JCR], [ 00000000120,00], [false], [false], [N]
+2014-10-14 17:24:36,922 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - now.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,922 ERROR [org.pentaho.di] 2014/10/14 17:24:36 - Don't recalculate.0 - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Aborting after having seen 1 rows.
+2014-10-14 17:24:36,922 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Don't recalculate.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=1)
+2014-10-14 17:24:36,922 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _decide_new_comparison - Transformação detectada 
+2014-10-14 17:24:36,922 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - _decide_new_comparison - Transformação está matando os outros steps!
+2014-10-14 17:24:36,923 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Switch / Case.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,923 ERROR [org.pentaho.di] 2014/10/14 17:24:36 - _decide_new_comparison - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Erros detectados!
+2014-10-14 17:24:36,923 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - elapsed time.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,923 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Write to log 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,923 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - time to number.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:36,923 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - recalculate ?.0 - Finished processing (I=0, O=0, R=1, W=2, U=0, E=0)
+2014-10-14 17:24:36,924 INFO  [org.pentaho.di] 2014/10/14 17:24:36 - Get origin/destination.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:37,164 ERROR [org.pentaho.di] 2014/10/14 17:24:37 - _decide_new_comparison - ERROR (version 5.1.0.0, build 1 from 2014-06-19_19-02-57 by buildguy) : Erros detectados!
+2014-10-14 17:24:37,165 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _previewDifferences.kjb - Starting entry [read from cache]
+2014-10-14 17:24:37,165 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - read from cache - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_read_from_cache.ktr]
+2014-10-14 17:24:37,171 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - read from cache - Expedindo início para transformação [read from cache]
+2014-10-14 17:24:37,174 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - load from cache.0 - Header row skipped in file 'file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv'
+2014-10-14 17:24:37,175 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - load from cache.0 - Finished processing (I=9, O=0, R=0, W=16, U=0, E=0)
+2014-10-14 17:24:37,177 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - count entries 3.0 - Finished processing (I=0, O=0, R=8, W=1, U=0, E=0)
+2014-10-14 17:24:37,177 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Write to log 5.0 - 
+2014/10/14 17:24:37 - Write to log 5.0 - ------------> Linenr 1------------------------------
+2014/10/14 17:24:37 - Write to log 5.0 - Loaded from cache: file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_cache.csv
+2014/10/14 17:24:37 - Write to log 5.0 - 
+2014/10/14 17:24:37 - Write to log 5.0 - N = 8
+2014/10/14 17:24:37 - Write to log 5.0 - 
+2014/10/14 17:24:37 - Write to log 5.0 - ====================
+2014-10-14 17:24:37,178 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - If field value is null.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,180 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Write to log 5.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:37,180 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - OUT.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,182 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _previewDifferences.kjb - Starting entry [process preview request]
+2014-10-14 17:24:37,183 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - process preview request - Loading transformation from XML file [file:///opt/pentaho/biserver-ce_fhemig/pentaho-solutions/system/repositorySynchronizer/endpoints/kettle/_process_preview_request.ktr]
+2014-10-14 17:24:37,195 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - process preview request - Expedindo início para transformação [process preview request]
+2014-10-14 17:24:37,210 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:37,213 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _getLastSynchDate - Expedindo início para transformação [_getLastSynchDate]
+2014-10-14 17:24:37,224 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:37,234 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _gen_folder_lines - Expedindo início para transformação [_gen_folder_lines]
+2014-10-14 17:24:37,245 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Get rows from result.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,247 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Get data from XML.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:37,247 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - entry point.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,250 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - OUTPUT.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2014-10-14 17:24:37,255 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - getLastSynchDate.0 - Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2014-10-14 17:24:37,413 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - sub_path.0 - Optimization level set to 9.
+2014-10-14 17:24:37,550 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - join.0 - Finished processing (I=0, O=0, R=9, W=8, U=0, E=0)
+2014-10-14 17:24:37,552 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Get variables.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,554 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - int(timestamp).0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,555 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Switch / Case.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,557 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Import: flagfield --> status.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,559 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - source&dest 2.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,560 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - input.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,562 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - folder_full_path.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,564 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Clone row.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:37,565 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - is clone?.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:37,567 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Add sequence.0 - Finished processing (I=0, O=0, R=8, W=8, U=0, E=0)
+2014-10-14 17:24:37,568 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Split path to rows.0 - Finished processing (I=0, O=0, R=8, W=16, U=0, E=0)
+2014-10-14 17:24:37,571 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - sub_path.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:37,581 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - only valid folders.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:37,583 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Select values.0 - Finished processing (I=0, O=0, R=16, W=16, U=0, E=0)
+2014-10-14 17:24:37,585 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:37,587 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - update status.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:37,588 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - remove leading /.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:37,591 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Filter rows.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:37,592 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - order.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:37,594 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Sort.0 - Finished processing (I=0, O=0, R=24, W=24, U=0, E=0)
+2014-10-14 17:24:37,598 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - discard duplicates.0 - Finished processing (I=0, O=0, R=24, W=12, U=0, E=0)
+2014-10-14 17:24:37,654 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - remove fields.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,657 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - output.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,658 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - gen_folder_lines (if needed) Import.0 - Finished processing (I=0, O=0, R=8, W=12, U=0, E=0)
+2014-10-14 17:24:37,660 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - List.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,697 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - remove nothing_to_be_updated.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,737 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - delete filter.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,739 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - select.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,741 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Dummy (do nothing).0 - Finished processing (I=0, O=0, R=12, W=24, U=0, E=0)
+2014-10-14 17:24:37,744 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Detect empty stream.0 - Finished processing (I=0, O=0, R=12, W=0, U=0, E=0)
+2014-10-14 17:24:37,746 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - OUTPUT.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,748 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _previewDifferences.kjb - Finished job entry [process preview request] (result=[true])
+2014-10-14 17:24:37,748 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _previewDifferences.kjb - Finished job entry [read from cache] (result=[true])
+2014-10-14 17:24:37,748 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _previewDifferences.kjb - Finished job entry [recalculate?] (result=[true])
+2014-10-14 17:24:37,748 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - _previewDifferences.0 - Finished processing (I=0, O=0, R=1, W=12, U=0, E=0)
+2014-10-14 17:24:37,750 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - Select values.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)
+2014-10-14 17:24:37,754 INFO  [org.pentaho.di] 2014/10/14 17:24:37 - OUTPUT.0 - Finished processing (I=0, O=0, R=12, W=12, U=0, E=0)

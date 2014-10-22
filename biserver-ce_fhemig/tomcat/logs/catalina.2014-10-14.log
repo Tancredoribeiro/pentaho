@@ -1,0 +1,406 @@
+Out 14, 2014 3:11:55 PM org.apache.catalina.core.AprLifecycleListener init
+Informações: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Out 14, 2014 3:11:56 PM org.apache.coyote.http11.Http11Protocol init
+Informações: Initializing Coyote HTTP/1.1 on http-8080
+Out 14, 2014 3:11:56 PM org.apache.catalina.startup.Catalina load
+Informações: Initialization processed in 971 ms
+Out 14, 2014 3:11:56 PM org.apache.catalina.core.StandardService start
+Informações: Starting service Catalina
+Out 14, 2014 3:11:56 PM org.apache.catalina.core.StandardEngine start
+Informações: Starting Servlet Engine: Apache Tomcat/6.0.39
+Out 14, 2014 3:11:56 PM org.apache.catalina.startup.HostConfig deployDescriptor
+Informações: Deploying configuration descriptor pentaho.xml
+Out 14, 2014 3:12:06 PM org.eclipse.gemini.blueprint.extender.internal.boot.ChainActivator <init>
+Informações: Blueprint API detected; enabling Blueprint Container functionality
+Out 14, 2014 3:12:06 PM org.eclipse.gemini.blueprint.extender.internal.activator.ContextLoaderListener start
+Informações: Starting [org.eclipse.gemini.blueprint.extender] bundle v.[1.0.2.RELEASE]
+Out 14, 2014 3:12:06 PM org.eclipse.gemini.blueprint.extender.internal.support.ExtenderConfiguration <init>
+Informações: No custom extender configuration detected; using defaults...
+Out 14, 2014 3:12:06 PM org.springframework.scheduling.timer.TimerTaskExecutor afterPropertiesSet
+Informações: Initializing Timer
+Out 14, 2014 3:12:06 PM org.eclipse.gemini.blueprint.extender.internal.activator.ContextLoaderListener start
+Informações: Starting [org.eclipse.gemini.blueprint.extender] bundle v.[1.0.2.RELEASE]
+Out 14, 2014 3:12:06 PM org.eclipse.gemini.blueprint.extender.internal.support.ExtenderConfiguration <init>
+Informações: No custom extender configuration detected; using defaults...
+Out 14, 2014 3:12:06 PM org.springframework.scheduling.timer.TimerTaskExecutor afterPropertiesSet
+Informações: Initializing Timer
+Out 14, 2014 3:12:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory sw-style
+Out 14, 2014 3:12:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory pentaho-style
+Out 14, 2014 3:12:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+Informações: Deploying web application directory ROOT
+Out 14, 2014 3:12:20 PM org.apache.coyote.http11.Http11Protocol start
+Informações: Starting Coyote HTTP/1.1 on http-8080
+Out 14, 2014 3:12:20 PM org.apache.jk.common.ChannelSocket init
+Informações: JK: ajp13 listening on /0.0.0.0:8009
+Out 14, 2014 3:12:20 PM org.apache.jk.server.JkMain start
+Informações: Jk running ID=0 time=0/12  config=null
+Out 14, 2014 3:12:20 PM org.apache.catalina.startup.Catalina start
+Informações: Server startup in 24244 ms
+Out 14, 2014 3:13:13 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, sparkl.api, of type pt.webdetails.cpk.CpkApi as a root resource class
+Out 14, 2014 3:13:13 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.version(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.status(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.genericEndpointGet(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.defaultElement(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.refreshGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.getSitemapJson(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.elementsList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.listDataAccessTypes(javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reloadPluginsGet() throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.clearKettleResultsCache(), MUST return a non-void type.
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, datasources, of type pt.webdetails.cdf.dd.api.DatasourcesApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, wcdf.editor, of type pt.webdetails.cdf.dd.api.EditorApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, olap, of type pt.webdetails.cpf.olap.OlapApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, plugins, of type pt.webdetails.cdf.dd.api.PluginsApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, renderer, of type pt.webdetails.cdf.dd.api.RenderApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, resourcesapi, of type pt.webdetails.cdf.dd.api.ResourcesApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, syncronizer, of type pt.webdetails.cdf.dd.api.SyncronizerApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, version, of type pt.webdetails.cdf.dd.api.VersionApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cpf.olap.OlapApi.getPaginatedLevelMembers(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,long,long,javax.servlet.http.HttpServletResponse) throws java.io.IOException,org.json.JSONException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpf.olap.OlapApi.getLevelMembersStructure(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException,org.json.JSONException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpf.olap.OlapApi.getCubeStructure(java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException,org.json.JSONException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpf.olap.OlapApi.getCubes(javax.servlet.http.HttpServletResponse) throws java.io.IOException,org.json.JSONException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.RenderApi.refresh() throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.resource(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.getResource(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.res(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.getImage(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.getCssResource(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.getJsResource(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.ResourcesApi.getUntypedResource(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.SyncronizerApi.syncStyles(javax.servlet.http.HttpServletResponse) throws java.io.IOException,pt.webdetails.cdf.dd.DashboardDesignerException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cdf.dd.api.VersionApi.checkVersion(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, datasourceResourceBean, of type org.saiku.plugin.resources.PentahoDatasourceResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, olapDiscoverBean, of type org.saiku.plugin.resources.PentahoDiscoverResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, queryResource, of type org.saiku.plugin.resources.PentahoQueryResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, sessionResource, of type org.saiku.plugin.resources.PentahoSessionResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, repositoryBean2, of type org.saiku.plugin.resources.PentahoRepositoryResource2 as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, tagRepositoryBean, of type org.saiku.plugin.resources.PentahoTagRepositoryResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, filterRepositoryBean, of type org.saiku.plugin.resources.PentahoFilterRepositoryResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, pluginResource, of type org.saiku.plugin.resources.PluginResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, exporterBean, of type org.saiku.plugin.resources.PentahoExporterResource as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, storage, of type org.pentaho.cdf.storage.StorageApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, comments, of type org.pentaho.cdf.comments.CommentsApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, settings, of type org.pentaho.cdf.settings.SettingsApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, cdfResources, of type org.pentaho.cdf.ResourcesApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, views, of type org.pentaho.cdf.views.ViewsApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, cdfApi, of type org.pentaho.cdf.CdfApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.add(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.list(java.lang.String,int,int,boolean,boolean,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.delete(int,boolean,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.comments.CommentsApi.archive(int,boolean,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.settings.SettingsApi.get(java.lang.String,javax.servlet.http.HttpServletResponse), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.views.ViewsApi.listViews(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.views.ViewsApi.saveView(java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.views.ViewsApi.deleteView(java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfApi.getResource(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfApi.clearCache(javax.servlet.http.HttpServletResponse), MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfApi.export(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfApi.callAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfApi.getJSONSolution(java.lang.String,java.lang.String,java.lang.String,int,boolean,java.lang.String,javax.servlet.http.HttpServletResponse) throws org.pentaho.cdf.InvalidCdfOperationException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void org.pentaho.cdf.CdfApi.doGetViewAction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+Out 14, 2014 3:13:14 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, repositorySynchronizer.api, of type pt.webdetails.cpk.CpkApi as a root resource class
+Out 14, 2014 3:13:14 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.version(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.status(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.genericEndpointGet(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.defaultElement(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.refreshGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.getSitemapJson(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.elementsList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.listDataAccessTypes(javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reloadPluginsGet() throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.clearKettleResultsCache(), MUST return a non-void type.
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, d3ComponentLibrary.api, of type pt.webdetails.cpk.CpkApi as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.version(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.status(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.genericEndpointGet(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.defaultElement(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.refreshGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.getSitemapJson(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.elementsList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.listDataAccessTypes(javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reloadPluginsGet() throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.clearKettleResultsCache(), MUST return a non-void type.
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, pt.webdetails.cgg.CggService#0, of type pt.webdetails.cgg.CggService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cgg.CggService.draw(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Long,java.lang.Long,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest), MUST return a non-void type.
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.PlatformStagingDatabaseResource#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.PlatformStagingDatabaseResource as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatasourceResource#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatasourceResource as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.AnalysisDatasourceService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.AnalysisDatasourceService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.MetadataDatasourceService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.MetadataDatasourceService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.ConnectionService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.ConnectionService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseDialectService#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseDialectService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.PentahoJAXBContextResolver#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.PentahoJAXBContextResolver as a provider class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DataAccessPermissionResource#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DataAccessPermissionResource as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionReaderWriter#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionReaderWriter as a provider class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionListReaderWriter#0, of type org.pentaho.platform.dataaccess.datasource.wizard.service.impl.DatabaseConnectionListReaderWriter as a provider class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, xml-metadataServiceDA/org.pentaho.platform.dataaccess.metadata.service.MetadataService, of type org.pentaho.platform.dataaccess.metadata.service.MetadataService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, gwt-metadataServiceDA/org.pentaho.platform.dataaccess.metadata.service.MetadataService, of type org.pentaho.platform.dataaccess.metadata.service.MetadataService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:15 PM com.sun.xml.ws.server.MonitorBase createRoot
+Informações: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-datasourceMgmtService-datasourceMgmtServicePort
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, cda.api, of type pt.webdetails.cda.CdaUtils as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, CdaCacheMonitor, of type pt.webdetails.cda.cache.endpoints.CacheMonitorEndpoint as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, CdaCacheScheduler, of type pt.webdetails.cda.cache.endpoints.CacheControllerEndpoint as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cda.CdaUtils.clearCache(javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cda.CdaUtils.unwrapQuery(java.lang.String,java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws javax.ws.rs.WebApplicationException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cda.CdaUtils.getCdaList(java.lang.String,javax.servlet.http.HttpServletResponse,javax.servlet.http.HttpServletRequest) throws java.lang.Exception, MUST return a non-void type.
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, marketplace.service, of type org.pentaho.marketplace.MarketplaceService as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:15 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, languagePack_pt_BR.api, of type pt.webdetails.cpk.CpkApi as a root resource class
+Out 14, 2014 3:13:15 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:16 PM com.sun.xml.ws.server.MonitorBase createRoot
+Informações: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-userRoleService-userRoleServicePort
+Out 14, 2014 3:13:16 PM com.sun.xml.ws.server.MonitorBase createRoot
+Informações: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-userRoleListService-userRoleListServicePort
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.version(java.lang.String,javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.status(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.genericEndpointGet(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.defaultElement(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.refreshGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws org.dom4j.DocumentException,java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.getSitemapJson(javax.servlet.http.HttpServletResponse) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.elementsList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,javax.ws.rs.core.HttpHeaders) throws java.io.IOException, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.listDataAccessTypes(javax.servlet.http.HttpServletResponse) throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.reloadPluginsGet() throws java.lang.Exception, MUST return a non-void type.
+  WARNING: A HTTP GET method, public void pt.webdetails.cpk.CpkApi.clearKettleResultsCache(), MUST return a non-void type.
+Out 14, 2014 3:13:16 PM com.sun.xml.ws.server.MonitorBase createRoot
+Informações: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-authorizationPolicy-authorizationPolicyPort
+Out 14, 2014 3:13:16 PM com.sun.xml.ws.server.MonitorBase createRoot
+Informações: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-roleBindingDao-roleBindingDaoPort
+Out 14, 2014 3:13:16 PM com.sun.xml.ws.server.MonitorBase createRoot
+Informações: Metro monitoring rootname successfully set to: com.sun.metro:pp=/,type=WSEndpoint,name=/pentaho-Scheduler-SchedulerPort
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.JAXBContextResolver#0, of type org.pentaho.platform.web.http.api.resources.JAXBContextResolver as a provider class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RootResource#0, of type org.pentaho.platform.web.http.api.resources.RootResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.DirectoryResource#0, of type org.pentaho.platform.web.http.api.resources.DirectoryResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserRoleDaoResource#0, of type org.pentaho.platform.web.http.api.resources.UserRoleDaoResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserRoleListResource#0, of type org.pentaho.platform.web.http.api.resources.UserRoleListResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.FileResource#0, of type org.pentaho.platform.web.http.api.resources.FileResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.EmailResource#0, of type org.pentaho.platform.web.http.api.resources.EmailResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SessionResource#0, of type org.pentaho.platform.web.http.api.resources.SessionResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SchedulerResource#0, of type org.pentaho.platform.web.http.api.resources.SchedulerResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.BlockoutResource#0, of type org.pentaho.platform.web.http.api.resources.BlockoutResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RepositoryResource#0, of type org.pentaho.platform.web.http.api.resources.RepositoryResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RepositoryImportResource#0, of type org.pentaho.platform.web.http.api.resources.RepositoryImportResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.PluginResource#0, of type org.pentaho.platform.web.http.api.resources.PluginResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.PluginManagerResource#0, of type org.pentaho.platform.web.http.api.resources.PluginManagerResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemPermissionsResource#0, of type org.pentaho.platform.web.http.api.resources.SystemPermissionsResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemUsersResource#0, of type org.pentaho.platform.web.http.api.resources.SystemUsersResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemRolesResource#0, of type org.pentaho.platform.web.http.api.resources.SystemRolesResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemResource#0, of type org.pentaho.platform.web.http.api.resources.SystemResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutputProvider#0, of type org.pentaho.platform.web.http.api.resources.GeneratorStreamingOutputProvider as a provider class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.ThemeResource#0, of type org.pentaho.platform.web.http.api.resources.ThemeResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.SystemRefreshResource#0, of type org.pentaho.platform.web.http.api.resources.SystemRefreshResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.VersionResource#0, of type org.pentaho.platform.web.http.api.resources.VersionResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserConsoleResource#0, of type org.pentaho.platform.web.http.api.resources.UserConsoleResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.UserSettingsResource#0, of type org.pentaho.platform.web.http.api.resources.UserSettingsResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.RepositoryPublishResource#0, of type org.pentaho.platform.web.http.api.resources.RepositoryPublishResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.AuthorizationActionResource#0, of type org.pentaho.platform.web.http.api.resources.AuthorizationActionResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.spi.spring.container.SpringComponentProviderFactory registerSpringBeans
+Informações: Registering Spring bean, org.pentaho.platform.web.http.api.resources.PasswordResource#0, of type org.pentaho.platform.web.http.api.resources.PasswordResource as a root resource class
+Out 14, 2014 3:13:16 PM com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+Informações: Initiating Jersey application, version 'Jersey: 1.16 11/28/2012 03:18 PM'
+Out 14, 2014 3:13:17 PM com.sun.jersey.spi.inject.Errors processErrorMessages
+Advertência: The following warnings have been detected with resource and/or provider classes:
+  WARNING: A HTTP GET method, public javax.ws.rs.core.Response org.pentaho.platform.web.http.api.resources.EmailResource.deleteEmailConfig(org.pentaho.platform.plugin.services.email.EmailConfiguration), should not consume any entity.
+  WARNING: A HTTP GET method, public javax.ws.rs.core.Response org.pentaho.platform.web.http.api.resources.BlockoutResource.willFire(org.pentaho.platform.web.http.api.resources.JobScheduleRequest), should not consume any entity.
+Out 14, 2014 5:24:23 PM com.orientechnologies.common.log.OLogManager log
+Informações: Loading configuration from input stream
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Informações: OrientDB Server v1.5.0 is starting up...
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Informações: -> Loaded memory database 'temp'
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: Sun Unsafe direct  memory implementation is going to be used, this implementation is not stable so please use JNA version instead.
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'default.0.oda' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'default.odh' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'database.ocf' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'index.0.oda' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'index.odh' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'internal.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'internal.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'index.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'index.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'manindex.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'manindex.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'default.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'default.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'orole.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'orole.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'ouser.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'ouser.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'ofunction.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'ofunction.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'oschedule.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'oschedule.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'orids.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'orids.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'org.pentaho.cdf.views.view.0.ocl' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'org.pentaho.cdf.views.view.och' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Advertência: segment file 'txlog.otx' was not closed correctly last time
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Informações: -> Loaded local database 'webdetails'
+Out 14, 2014 5:24:24 PM com.orientechnologies.common.log.OLogManager log
+Informações: Wait till indexes restore after crash was finished.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Index dictionary is not automatic index and will be added as is.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Index dictionary was added in DB index list.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Start creation of index OUser.name
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Index OUser.name was successfully created and rebuild is going to be started.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Rebuild of OUser.name index was successfully finished.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Start creation of index ORole.name
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Index ORole.name was successfully created and rebuild is going to be started.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Rebuild of ORole.name index was successfully finished.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: 3 indexes were restored successfully, 0 errors
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Indexes restore after crash was finished.
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Advertência: [OVariableParser.resolveVariables] Error on resolving property: ORIENTDB_HOME
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Listening binary connections on 0.0.0.0:2424 (protocol v.17)
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: Listening http connections on 127.0.0.1:2480 (protocol v.10)
+Out 14, 2014 5:24:25 PM com.orientechnologies.common.log.OLogManager log
+Informações: OrientDB Server v1.5.0 is active.
